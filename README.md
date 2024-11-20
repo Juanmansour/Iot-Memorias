@@ -32,3 +32,5 @@ Realizamos una toma de contacto con el dispositivo ESP32 y el lenguaje de progra
 
 ### 20 de Noviembre de 2024
 - [x] Implementar funciones del día anterior con librerías asíncronas.
+- [ ] Esquema circuito
+- [ ] Incluir fotos y videos
