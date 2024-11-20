@@ -1,9 +1,9 @@
 # Memoria de Prácticas IoT  -  ESP32 con microPython
 ## Grupo 2
-- Juan Mansour
-- Laura Muñoz
+- Juan Mansour Wehbe
+- Laura Muñoz Millán
 - Alberto Fernández Merchán
-- Sarah 
+- Sarah Saad
 
 ### 5 de Noviembre de 2024
 Realizamos una toma de contacto con el dispositivo ESP32 y el lenguaje de programación microPython utilizando el IDE Thonny. Realizamos tres ejemplos en los que:
