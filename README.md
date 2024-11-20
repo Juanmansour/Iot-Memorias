@@ -17,18 +17,18 @@ Realizamos una toma de contacto con el dispositivo ESP32 y el lenguaje de progra
 
 ### 6 de Noviembre de 2024
 
- - [ ] Decisión de protocolo de comunicación (MQTT)
- - [ ] Conexión con el broker del profesor
- - [ ] Publicación de datos en el broker
+ - [x] Decisión de protocolo de comunicación (MQTT)
+ - [x] Conexión con el broker del profesor
+ - [x] Publicación de datos en el broker
  - [ ] Recepción de datos en el broker
- - [ ] Utilización de un botón para mandar una señal al broker.
+ - [x] Utilización de un botón para mandar una señal al broker.
 
 ### 19 de Noviembre de 2024
-- [ ] Instalación de MqttExplorer para lanzar nuestro propio broker desde nuestro portátil personal (conexión al router, cambios en la configuración del fichero .cfg...)
-- [ ] Conexión con nuestro broker
-- [ ] Recepción de mensajes con nuestro broker
-- [ ] Utilización de un botón para mandar una señal al broker
-- [ ] Activación de LED remota.
+- [x] Instalación de MqttExplorer para lanzar nuestro propio broker desde nuestro portátil personal (conexión al router, cambios en la configuración del fichero .cfg...)
+- [x] Conexión con nuestro broker
+- [x] Recepción de mensajes con nuestro broker
+- [x] Utilización de un botón para mandar una señal al broker
+- [x] Activación de LED remota.
 
 ### 20 de Noviembre de 2024
-- [ ] Implementar funciones del día anterior con librerías asíncronas.
+- [x] Implementar funciones del día anterior con librerías asíncronas.
