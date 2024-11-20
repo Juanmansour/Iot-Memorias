@@ -17,11 +17,12 @@ Realizamos una toma de contacto con el dispositivo ESP32 y el lenguaje de progra
 
 ### 6 de Noviembre de 2024
 
- - [x] Decisión de protocolo de comunicación (MQTT)
- - [x] Conexión con el broker del profesor
- - [x] Publicación de datos en el broker
- - [ ] Recepción de datos en el broker
- - [x] Utilización de un botón para mandar una señal al broker.
+Decidimos utilizar el protocolo de comunicación Mosquitto (MQTT) para realizar la comunicación entre las dos placas ESP32. Para ello necesitamos un brocker que haga de servidor y las dos placas hacen de clientes. Una de las placas publicará en el brocker el dato del sensor y la otra placa, tras subscribirse al tópico donde esté publicado el valor, deberá leerlo. 
+
+Para la primera toma de contacto, nos conectamos al brocker que levanta el profesor en su portátil. Utilizando el siguiente código:
+
+Utilizando un programa de ejemplo, conseguimos publicar datos aleatorios en el brocker, sin embargo, no conseguimos leer de él a pesar de estar suscritos. Para adelantar el trabajo del siguiente día, decidimos conectar un botón como actuador en la placa que publica los datos y conseguimos mandar un '1' cuando está pulsado y un '0' cuando no lo está.
+
 
 ### 19 de Noviembre de 2024
 - [x] Instalación de MqttExplorer para lanzar nuestro propio broker desde nuestro portátil personal (conexión al router, cambios en la configuración del fichero .cfg...)
