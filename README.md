@@ -35,3 +35,6 @@ Utilizando un programa de ejemplo, conseguimos publicar datos aleatorios en el b
 - [x] Implementar funciones del día anterior con librerías asíncronas.
 - [ ] Esquema circuito
 - [ ] Incluir fotos y videos
+
+![IMG_MQTT_OFF](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/IMG_Communication_OFF.jpg)
+![IMG_MQTT_ON](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/IMG_Communication_ON.jpg)
