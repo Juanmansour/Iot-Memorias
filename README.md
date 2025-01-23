@@ -51,7 +51,7 @@ El código se puede ver en este [enlace](https://github.com/Juanmansour/Iot-Memo
 Por último, el cuarto día implementamos el código anterior pero, esta vez, utilizando las funciones asíncronas de la librería de micropython. Los códigos pueden verse en este enlace [enlace](https://github.com/Juanmansour/Iot-Memorias/tree/main/Memorias%204/MQTT).
 
 Los circuitos que utilizamos son los que se pueden ver en las siguientes imágenes:
-En primer lugar utilizamos un fotoreceptor para que el Led se encendiera cuando estuviese a oscuras:
+En primer lugar utilizamos un sensor de movimiento para que el LED se encendiera cuando alguien pasara por delante:
 ![ESQUEMA_FOTORECEPTOR](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/mem4_ESP32-emisor_bb.png)
 
 Luego, utilizamos un potenciómetro para regular la intensidad del led del receptor:
