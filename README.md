@@ -38,10 +38,16 @@ Este día instalamos la aplicación de MqttExplorer para lanzar nuestro propio b
 
 Por último conseguimos programar que, pulsando un botón en el ESP32, pudiéramos mandar una señal al broker y que el otro módulo ESP32 lo leyese del topic y activar un LED de forma remota.
 
+El código se puede ver en este [enlace](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%203/ESP_1/main.py)
+
 ### 20 de Noviembre de 2024
+Por último, el cuarto día implementamos el código anterior pero, esta vez, utilizando las funciones asíncronas de la librería de micropython. Los códigos pueden verse en este enlace [enlace](https://github.com/Juanmansour/Iot-Memorias/tree/main/Memorias%204/MQTT).
+
+El circuito que seguimos es el que se puede ver en el siguiente esquema:
+
 - [x] Implementar funciones del día anterior con librerías asíncronas.
 - [x] Esquema circuito
-- [x] Incluir fotos y videos
 
+Los resultados fueron los siguientes:
 ![IMG_MQTT_OFF](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/IMG_Communication_OFF.jpg)
 ![IMG_MQTT_ON](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/IMG_Communication_ON.jpg)
