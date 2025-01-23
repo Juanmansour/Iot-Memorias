@@ -25,16 +25,23 @@ Utilizando un programa de ejemplo, conseguimos publicar datos aleatorios en el b
 
 
 ### 19 de Noviembre de 2024
-- [x] Instalación de MqttExplorer para lanzar nuestro propio broker desde nuestro portátil personal (conexión al router, cambios en la configuración del fichero .cfg...)
-- [x] Conexión con nuestro broker
-- [x] Recepción de mensajes con nuestro broker
-- [x] Utilización de un botón para mandar una señal al broker
-- [x] Activación de LED remota.
+
+Este día instalamos la aplicación de MqttExplorer para lanzar nuestro propio broker desde nuestro portátil personal. 
+![IMG_DOWNLOAD_MQTT1](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%202/1.png)
+![IMG_DOWNLOAD_MQTT2](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%202/2.png)
+![IMG_DOWNLOAD_MQTT3](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%202/3.png)
+![IMG_DOWNLOAD_MQTT4](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%202/4.png)
+![IMG_DOWNLOAD_MQTT5](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%202/5.png)
+![IMG_DOWNLOAD_MQTT6](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%202/6.png)
+![IMG_DOWNLOAD_MQTT7](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%202/7.png)
+![IMG_DOWNLOAD_MQTT8](https://github.com/Juanmansour/Iot-Memorias/blob/main/Memorias%202/8.png)
+
+Por último conseguimos programar que, pulsando un botón en el ESP32, pudiéramos mandar una señal al broker y que el otro módulo ESP32 lo leyese del topic y activar un LED de forma remota.
 
 ### 20 de Noviembre de 2024
 - [x] Implementar funciones del día anterior con librerías asíncronas.
-- [ ] Esquema circuito
-- [ ] Incluir fotos y videos
+- [x] Esquema circuito
+- [x] Incluir fotos y videos
 
 ![IMG_MQTT_OFF](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/IMG_Communication_OFF.jpg)
 ![IMG_MQTT_ON](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/IMG_Communication_ON.jpg)
