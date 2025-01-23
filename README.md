@@ -52,18 +52,12 @@ Por último, el cuarto día implementamos el código anterior pero, esta vez, ut
 
 Los circuitos que utilizamos son los que se pueden ver en las siguientes imágenes:
 En primer lugar utilizamos un fotoreceptor para que el Led se encendiera cuando estuviese a oscuras:
-![ESQUEMA_FOTORECEPTOR](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/mem4_ESP32-receptor_bb.png)
+![ESQUEMA_FOTORECEPTOR]([https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/mem4_ESP32-receptor_bb.png](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/mem4_ESP32-emisor_bb.png))
 
 Luego, utilizamos un potenciómetro para regular la intensidad del led del receptor:
 ![ESQUEMA](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/mem4-ESP32-pwm_bb.png)
 ![ESQUEMA_RECEIVER](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/mem4_ESP32-receptor_bb.png)
 
-
-
-
-
-- [x] Implementar funciones del día anterior con librerías asíncronas.
-- [x] Esquema circuito
 
 Los resultados fueron los siguientes:
 ![IMG_MQTT_OFF](https://github.com/Juanmansour/Iot-Memorias/blob/main/ESP32_imagenes_y_videos/IMG_Communication_OFF.jpg)
